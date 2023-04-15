@@ -7,4 +7,13 @@ export default defineConfig({
   optimizeDeps: {
     include: ['@surely-vue/table', 'vue'],
   },
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+        modifyVars: {
+        },
+      },
+    },
+  },
 })
