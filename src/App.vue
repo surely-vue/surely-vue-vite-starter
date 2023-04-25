@@ -6,7 +6,7 @@
     :data-source="dataSource"
   ></s-table>
 </template>
-<script>
+<script lang="ts">
 import { defineComponent, ref } from "vue";
 const columns = [
   {
